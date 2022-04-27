@@ -7,7 +7,8 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class InspectionApiService {
-  readonly inspectionAPIUrl = "https://localhost:7181/api";
+ // readonly inspectionAPIUrl = "https://localhost:7181/api";
+ readonly inspectionAPIUrl = "https://inspectionwebapp2.azurewebsites.net/api";
 
   constructor(private http:HttpClient) { }
 // Inspection 
